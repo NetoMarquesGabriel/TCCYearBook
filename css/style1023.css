@@ -1,0 +1,516 @@
+/* Não vistos no mobile */
+
+#container,#daniel, #pum, #daniel2, #xau, #perfil_tudo, #header_HR2, .hr_desk, #alterar2{display:none}
+
+/* Header antes da Home Restrita - OK */
+
+#teste{width:99%}
+#teste a{text-align:right;margin-right:10px}
+#teste a img{width:400px;height:80px}
+
+/* Header geral - OK */
+
+header{display:flex;justify-content:space-between;margin:3% 1%}
+#PT{display:none}
+header img{width:60%;height:40%;align-self:center}
+header ul{align-self:center}
+header ul li{text-align:center}
+header ul li a{color:#0E786A;font-size:1.5rem;text-decoration:none}
+#alterar{display:flex}
+#alterar button{width:40px;background-color:transparent;border:none}
+#alterar button a img{width:100%;height:100%}
+
+/* Hr geral - OK  */
+
+hr{height:20px;background-color:#0E786A;border:1px solid #0E564B}
+
+/* Index - OK */
+
+#box_1{background-image:url(../images/img_home1_A.png);background-repeat:no-repeat}
+#box_1 h1{padding-top:16px;font-size:3.125rem;text-shadow:2px 2px black}
+#box_1 h1, #box_1 p{color:#FFF;padding-bottom:2%;text-align:center}
+#box_1 a{color:#FFF}
+#box_1 p{padding-bottom:50px;width:65%;font-size:1.3rem;margin-left:20%}
+#intermedio{height:10px;background-image: linear-gradient(to right, #0E786A, #9A3192);border:0}
+#box_21{background-image:url(../images/Home_1_A.jpg);background-repeat:no-repeat;padding:3%}
+#box_21 div h1, #box_21 div h3, #box_21 div h3 a, #box_21 div h2, #box_21 div h2 a{color:#FFF;text-align:center}
+#box_21 div h1, #box_21 div h2:nth-child(2){text-shadow:2px 2px black}
+#box_21 div h3, #box_21 div h2:nth-child(2){margin:2% 0}
+#box_21 div{text-align:center;background-color:rgba(14, 120, 106, 0.7);padding:2%;width:70%;margin-left:18%}
+
+/* Área login - OK */
+
+#login{display:none;margin-top:10px}
+#login{font-size:1.2rem}
+#login form{display:flex;flex-direction:column;align-items:center}
+#login form input{width:65%;margin-bottom:10px;text-align:center;border-radius:10px;border:3px solid #DDD;padding:0.8% 1.8%}
+#login_hr{height:10px;background-image:linear-gradient(to right, #0E786A, #9A3192);border:0}
+#login a{color:#000;margin-bottom:10px}
+#login button{margin-bottom:20px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+
+/* Footer geral - OK  */
+
+footer{height:50px;background-color:#000;display:flex;justify-content:space-between;align-items:center}
+footer img{margin-left:2%;width:84px;height:33px}
+footer a{text-decoration:none}
+footer ul{display:flex;width:50%;justify-content:flex-end;width:60%;margin-left:2%}
+footer ul li a{display:flex;font-size:0.9rem}
+.span1, .span2{color:#FFF}
+.span1{padding:12% 10px 0 0}
+.span2{padding-top:8%}    
+footer ul li a img{width:35px;height:35px;padding:3px;border-radius:50%;border:2px solid #024038;background-color:#FFF;margin-right:2%;
+	margin-left:-10%}
+
+/* Esqueceu sua senha - OK */
+
+#bg_att{background-image:url(../images/Contato3_A.jpg);background-repeat:no-repeat;padding:5% 0}
+#att{display:flex;background-color:rgba(14, 120, 106, 0.7);width:75%;align-items:center;margin:0 auto;flex-direction:column;
+     text-align:center;padding:3%;height:340px}
+#att h1{color:#FFF;margin:45px 0;text-shadow:2px 2px black}
+#att form{width:600px}
+#att form input{width:75%;height:25px;text-align:center;border-radius:10px}
+#att form input:nth-child(1){margin-bottom:38px;padding:1% 0}
+#att form input:nth-child(2){width:25%}
+#divTeste{color:#FFF}
+#divTeste, #att form input{margin-top:2%}
+
+/* Atualize sua senha - OK */
+
+#bg_att2{background-image:url(../images/Contato3_A.jpg);background-repeat:no-repeat;padding:5% 0}
+#att2{display:flex;background-color:rgba(14, 120, 106, 0.7);width:75%;align-items:center;margin:0 auto;flex-direction:column;
+     text-align:center;padding:3%;height:450px}
+#att2 h1{color:#FFF;margin:45px 0;text-shadow:2px 2px black}
+#att2 form{width:600px}
+#att2 form input{width:75%;height:25px;text-align:center;border-radius:10px}
+#att2 form input:nth-child(2){margin-bottom:38px;padding:1% 0}
+#att2 form input:nth-child(3){width:25%}
+#divTeste2{color:#FFF}
+#divTeste2, #att2 form input{margin-top:5%}
+#divTeste2 a{color:#FFF;font-size:1.2rem}
+
+/* Header Home Restrita - OK */
+
+#header_HR{display:block;height:110px}
+#PT2{display:none;margin-top:-5px;}
+#EN2 img, #PT2 img{width:65px;height:75px}
+#EN2 button, #PT2 button{background-color:transparent;border:none}
+#header_HR #LY a img{width:70%;height:5%;margin-left:17%}
+.nav-toggle {display:block;padding:4px;background:transparent;position:fixed;top:65px;left:28px;z-index:3}
+.hamburger{width:1.8em;position:relative;display:inline-block;height:0.7em;font-size:1.2em;background:transparent}
+.hamburger span{width:100%;background:#000;display:block;position:absolute;left:0px;height:0.185em;border-radius:1.2px;transition:1s all;-webkit-transition:1s all;
+	-ms-transition:1s all;-moz-transition:1s all;-o-transition:1s all}
+.hamburger span:nth-child(1){top:0px}
+.hamburger span:nth-child(2){top:0.39em}
+.hamburger span:nth-child(3){top:0.73em}
+.sidebar{width:55%;position:fixed;background-image:url(../images/Menu_2.jpg);background-repeat:no-repeat;
+	top:0px;left:0px;z-index:2;visibility:hidden;opacity:0;border:2px solid black}
+.sidebar ul li:nth-child(1){margin-top:30px}
+.sidebar ul li{text-align:center;padding:1.8%}            
+.sidebar ul li a{color:#000;margin-right:auto}
+#navicon{display:none}
+#navicon:checked ~ .sidebar{visibility:visible;opacity:1;transition:0.5s all;-webkit-transition: 0.5s all;-ms-transition:0.5s all;-moz-transition:0.5s all;-o-transition:0.5s all;height:487px;width:62%}
+#navicon:checked ~ .nav-toggle > .hamburger span{top:0.36em}
+#navicon:checked ~ .nav-toggle > .hamburger span:nth-child(1){transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);-o-transform:rotate(45deg)}
+#navicon:checked ~ .nav-toggle > .hamburger span:nth-child(2){transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);-o-transform:rotate(45deg)}
+#navicon:checked ~ .nav-toggle > .hamburger span:nth-child(3){transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
+#ver{margin:3%;background-color:rgba(255, 255, 255, 0.7)}
+
+/* Header no perfil aluno, escola e turma - OK */
+
+.sidebar2{width:55%;height:460px;position:fixed;background-image:url(../images/Menu_2.jpg);top:0px;left:0px;z-index:2;visibility:hidden;opacity:0;
+	transition:0.5s all;-webkit-transition: 0.5s all;-ms-transition:0.5s all;-moz-transition:0.5s all;-o-transition:0.5s all;
+border:2px solid black}
+.sidebar2 ul li{padding:2%;text-align:center}
+.sidebar2 ul li a{color:#000}
+#navicon2{display:none}
+#navicon:checked ~ .sidebar2{visibility:visible;opacity:1}
+
+/* Igual nos Cadastros */
+
+#aux_3{display:flex;justify-content:center;text-align:center;flex-direction:column}
+
+/* Cadastro Escola - OK */
+
+#container_CE{background-image:url(../images/Escola4_A23.jpg);background-repeat:no-repeat;padding:5%}
+#CE{background-color:rgba(14, 120, 106, 0.7);border-radius:10px;padding:5% 0;text-align:center}
+#CE h1{color:#FFF;font-size:2.4rem;text-align:center;padding:4%}
+#CE h1, #term_2 h2{text-shadow:2px 2px black}
+#CE input{border-radius:10px;margin:3% 15%;border:solid 4px white;padding:1% 5%;width:65%;text-align:center}
+#CE button{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#777777;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#CE button a{color:grey}
+.mouse{margin-bottom:10px;color:#FFF}
+#term_2{width:60%;margin:30px auto;padding:3%;height:480px;overflow-y:scroll;background-color:rgba(14, 120, 106, 0.4);border-radius:10px;
+text-align:center}
+#term_2 h2{color:#FFF;padding:2% 0;text-align:center}
+#term_2 p{color:#FFF;text-align:justify}
+#aux_3 span{font-size:1rem;margin:2% 1%}
+#aux_3 input{margin:8px 0 0 10px;width:15%}
+#CE a, #aux_3 span{color:#FFF}
+#CE form{margin-bottom:3%}  
+
+/* Hr's - OK */
+
+.hr_cad, .hr_contato{height:15px} 
+.hr_cad{background-color:#0E786A}
+.hr_contato{background-color:#0E786A}
+
+ /* Cadastro Sala - OK */
+
+#container_CS{background-image:url(../images/Sala-de-Aula2_A2.jpg);background-repeat:no-repeat;padding:5%;margin:0 auto}
+#CP h1{color:#FFF;font-size:2.4rem;text-align:center;padding:4%;text-shadow:2px 2px black}
+.envio4{color:#FFF}    
+#aux_3 input{margin:8px 0 0 10px;width:15%}
+
+/* Cadastro Pessoa - OK */    
+
+#container_P{background-image:url(../images/Alunos2_A.jpg);background-repeat:no-repeat;padding:3%;margin:0 auto}
+#bg_1, #bg_2{padding:3%}
+#CP{background-color:rgba(14, 120, 106, 0.6);border-radius:10px;padding:3% 0}
+#CP input{border-radius:10px;margin:3%;border:solid 4px white;padding:1% 3%;width:65%}
+#CP input, #CP{text-align:center}
+#CP button{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#777777;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#CP button a{color:grey}
+#CP a{color:#FFF}
+#aux_3 input{margin:8px 0 0 10px;width:15%}
+
+/* Cadastro Representante - OK */
+
+#bg_cad_rep{background-color:rgb(224,255,255);padding:5% 0;text-align:center}
+#cad_rep{background-color:rgba(14, 120, 106, 0.5);width:85%;margin:15px auto;text-align:center;padding:3%}
+#cad_rep h2{color:#FFF;font-size:2rem}
+#cad_rep h1{color:red;margin:15px 0;font-size:2.3rem}
+#cad_rep p{font-size:1.2rem}
+#bg_cad_rep a{font-size:1.3rem}
+
+/* Contato - OK */
+
+#bg_contato{background-image:url(../images/Contato3_A.jpg);background-repeat:no-repeat;padding:5% 0}
+#C_beards{background-color:rgba(148, 37, 137, 0.6);text-align:center;margin:3% 0}
+#C_beards img{width:50%;height:50%}
+#contato{background-color:rgba(148, 37, 137, 0.6);width:80%;margin:1% auto;padding:2%;text-align:center}
+#contato h1{color:#FFF;font-size:1.3rem;padding-bottom:3%;text-align:left}
+.estrelas h1, .estrelas h1 a{color:#FFF}
+.estrelas{text-align:left}
+.estrelas input[type=radio]{display:none}
+.estrelas label i.fa:before{content:'\f005';color:#FC0}
+.estrelas input[type=radio]:checked ~ label i.fa:before{color:#CCC}
+#AVA{display:flex;height:100px;justify-content:space-around;margin-bottom:20px}
+#AVA button{margin-bottom:20px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+.diferente{color:#FFF;font-size:1.3rem}
+#AVA img{height:50px;width:50px;align-self:center}
+#comentario{margin-top:2%;display:none}
+#comentario button{margin-bottom:20px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#comentario .input{width:80%;height:60px;margin-bottom:10px;font-size:1rem}
+
+/* Quem somos - OK */
+
+#container_QS img{height:180px;width:180px;align-self:center}
+.auxiliar{margin-right:4%}
+.auxiliar2{margin-left:3%}
+.auxiliar, .auxiliar2{text-align:center}
+.auxiliar ul li, .auxiliar2 ul li{color:#FFF;padding-top:2%}
+#gordao h1, #gordao img, #arthur h1, #arthur img, #emily h1, #emily img, #leo img{margin-right:3%}
+#augusto h1, #augusto img, #sid h1, #sid img, #marques h1, #marques img, #leo h1, #leo img{margin-left:3%}
+#augusto, #gordao, #arthur, #sid, #marques, #emily, #leo{height:220px;width:100%}
+#augusto h1, #gordao h1, #sid h1, #marques h1, #emily h1, #leo h1, #arthur h1, #leo h1{color:#FFF} 
+#augusto{background-color:#404040}
+#gordao{background-color:#000}
+#marques{background-color:#FFF}
+#arthur{background-color:#092140}
+#emily{background-color:#1E90FF}
+#sid{background-color:#F7931D}
+#leo{background-color:#9E1E62} 
+#augusto, #gordao, #marques, #arthur, #sid, #emily, #leo{display:flex;padding:5% 0;justify-content:space-around}
+#augusto h1, #gordao h1, #marques h1, #arthur h1, #sid h1, #emily h1, #leo h1{width:100%;font-size:2.1rem}
+#augusto img, #marques img, #sid img, #leo img{border:2px solid black}
+#augusto img, #gordao img, #marques img, #arthur img, #sid img, #emily img, #leo img{border-radius:50%}
+#marques h1, #marques ul li{color:#000}
+#gordao, #arthur, #emily{flex-direction:row-reverse}
+#gordao h1, #augusto h1, #arthur h1, #leo h1{text-shadow:2px 2px rgba(555, 555, 555, 0.4)}
+#marques h1, #sid h1, #emily h1{text-shadow:2px 2px rgba(000, 000, 000, 0.4)}
+#gordao img, #emily img, #arthur img{border:2px solid white}
+
+
+/* Home Restrita - OK */
+
+#perfil_foto{height:40px;width:40px;background-color:#CCC} 
+#fundo_HR{background-image:url(../images/Home_Restrita2_A.jpg);background-repeat:no-repeat;padding:5% 0} /* Arrumar o BG */
+#fundo_HR div{margin-bottom:15%}
+#fundo_HR div:nth-child(3){margin-bottom:10%}
+#fundo_HR div a u, #fundo_HR div a u b{color:#FFF}
+#perf{width:65%;background-color:rgba(23, 125, 115, 0.5);padding:3%;text-align:center}
+#perf a{font-size:1.9rem}
+#perf_escola, #perf{text-align:left}
+#perf_turma{text-align:right}
+#perf_turma, #perf_escola{padding:3%;background-color:rgba(154, 45, 145, 0.5)}
+#perf_turma a, #perf_escola a{font-size:2rem}
+#perf_turma{padding-left:55%}
+.agr_segura, #perfil_turma, #perfil_turma, #perfil_escola {display: none} 
+
+/* Perfil Aluno Público - OK */
+
+#bg_alu{display:flex;background-image:url(../images/a_1_A.jpg);background-repeat:no-repeat;padding:3%;justify-content:space-between}
+#nome, #turma{background-color:rgba(14, 120, 106, 0.4);padding:3%;width:45%}
+#nome{margin-right:15%;text-align:center}
+#turma{height:350px;align-self:center}
+#nome a{display:block;border-bottom:5px solid #FFF;border-right:5px solid #FFF;width:30px;height:30px;transform:rotate(45deg);margin:15px 80%}
+#nome ul{text-align:left}
+#nome ul li{font-size:1.3rem;margin-bottom:2%}
+#nome ul li, #turma ul li{color:#FFF}
+#nome h1, #turma h1, #status h1{color:#FFF;margin-bottom:3%;text-shadow:2px 2px black}
+#nome img{border-radius:50%;width:200px;height:200px;margin-bottom:-10px;border:2px solid black}
+#turma ul li{text-align:center;margin-bottom:15px}
+#turma h1{text-align:center}
+#turma ul li a{color:#FFF;font-size:1.5rem}
+#fotos{display:flex;text-align:center;justify-content:center;padding:3%;background-color:#DDD;}
+#fotos img{width:350px;height:350px;border:3px solid #0E786A;padding:2%}
+#fotos a{display:block;width:30px;height:30px;align-self:center;margin:0 3%;border-top:3px solid #0E786A}
+#fotos a:nth-child(1){border-left:3px solid #0E786A;transform:rotate(-47deg);margin-left:7%}
+#fotos a:nth-child(3){border-right:3px solid #0E786A;transform:rotate(47deg)}
+#bg_status{display:flex;justify-content:center;background-image:url(../images/a_2.jpg);background-repeat:no-repeat;padding:3%}
+#status{background-color:rgba(14, 120, 106, 0.5);padding:5%;width:65%}
+#status p{color:#FFF}
+
+/* Perfil Aluno Editável - OK */
+
+#bg_aluno{display:flex;background-image:url(../images/Perfil_Aluno3_A2.jpg);background-repeat:no-repeat;padding:3%}
+#nome_E{background-color:rgba(14, 120, 106, 0.4);width:100%;height:400px;display:flex;flex-direction:column}
+#nome_E h1{color:#FFF;align-self:center;margin:10px 0;font-size:2.3rem;text-shadow:2px 2px black}
+#nome_E img{border-radius:50%;width:200px;height:200px;align-self:flex-end;margin-right:7%;border:3px solid black}
+#ed{align-self:flex-end;margin-right:30px;display:block;border-bottom:5px solid #FFF;border-right:5px solid #FFF;width:30px;height:30px;
+	transform:rotate(45deg)}
+#nome_E ul{margin:-125px 0 0 10px}
+#nome_E ul li{color:#FFF;margin-top:3%;font-size:1.3rem}
+#nome_E ul li:nth-child(4){padding-bottom:0}
+#nome_E a:nth-child(5){align-self:flex-end;margin:30px 10px 0 0;color:#FFF;margin-top:-5%}
+#nome_E a:nth-child(6){align-self:flex-end;margin:10px 10px 0 0;color:#FFF;}
+#bg_status_E{background-image:url(../images/Perfil_Aluno6_A3.jpg);background-repeat:no-repeat;padding-top:3%;height:360px}
+#status_E{background-color:rgba(14, 120, 106, 0.5);padding:5%;
+	margin:0 3% 3% 3%;display:flex;flex-direction:column;height:310px;text-align:center} 
+#status_E h1{text-align:center;color:#FFF;align-self:center}
+#fotos{display:flex;flex-wrap:wrap}
+#fotos img{margin:10px}
+#status_E input{width:85%;margin:1.7px 0;padding:2%}
+#status_E input:nth-child(1){height:100px}
+#status_E .a{text-align:right;margin-top:10px;color:#FFF}
+
+/* Perfil Escola Editável - OK */
+
+#bg_escola{background-image:url(../images/Escola5_A2.jpg);background-repeat:no-repeat;padding:3%;margin:0 auto;text-align:left}
+#bg_escola form{text-align:center}
+#bg_escola form input{border-radius:10px;padding:2%}
+#bg_escola form button{margin-top:5px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#auxi{text-align:center;margin-bottom:2%;}
+#escola_E{background-color:rgba(14, 120, 106, 0.5);padding:3%;text-align:center;margin-bottom:2%}
+#escola_E input{height:50px;width:80%}
+#bg_escola a{color:#FFF;font-size:1.1rem}
+#bg_cargos{background-color:#CCC;text-align:center;display:flex;flex-direction:column}
+#bg_cargos a{margin-top:2%;border:2px solid black;width:25px;text-decoration:none;display:block;margin:1% auto}
+#bg_cargos button{margin:10px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#bg_cargos h1{color:#FFF;margin-top:2%;text-shadow:2px 2px black}
+.img_func{margin:10px 0 10px 2%;width:97%}
+.cargos{display:flex;justify-content:center;margin-top:5%}
+.cargos ul{background-color:rgba(14, 120, 106, 0.5);margin-left:-40px;width:420px;border-radius:10px}
+.cargos input{border-radius:10px;padding:2%;width:75%}
+.cargos input:nth-child(1){margin:2% 0 0 13%}
+.cargos img{border-radius:50%;width:100px;height:100px;z-index:1}
+#turmas_Esc{background-color:rgba(192,192,192, 0.3);text-align:center;padding:3%}
+#turmas_Esc ul{column-count:2;margin-bottom:2%}
+#turmas_Esc .ul{column-count:1;margin:10px}
+#turmas_Esc .ul li a{color:#000}
+#turmas_Esc button{margin:10px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+
+/* Perfil Escola - OK */
+
+#bg_escola2{background-image:url(../images/Escola5_A2.jpg);background-repeat:no-repeat;padding:3%}
+#bg_escola2 h1{color:#FFF;text-align:center;margin:2% 0;text-shadow:2px 2px black}
+#escola2{background-color:rgba(14, 120, 106, 0.5);padding:3%;text-align:center}
+#escola2 p{color:#FFF}
+.cargos_2{display:flex;justify-content:center;margin:2% 0}
+.cargos_2:nth-child(2), .cargos_2:nth-child(3){margin-top:0}
+.cargos_2 ul li{color:#FFF;margin:15px 0 0 50px}
+.cargos_2 ul{background-color:rgba(14, 120, 106, 0.5);margin-left:-40px;width:350px;text-align:left;border-radius:10px}
+.cargos_2 img{border-radius:50%;width:80px;height:80px;z-index:1;border:1px solid black}
+
+/* Perfil Turma Editável - OK */
+
+#bg_turma{background-image:url(../images/Perfil_Turma2_A2.jpg);background-repeat:no-repeat;padding:3%;text-align:right}
+#turma2{background-color:rgba(14, 120, 106, 0.5);padding:3%;text-align:center;margin-bottom:2%}
+#turma2 ul{column-count:4;margin-bottom:10px}
+#turma2 h1{margin-bottom:2%;text-shadow:2px 2px black}
+#turma2 ul li, #turma2 h1{color:#FFF}
+#turma2 ul li{padding-bottom:5%}
+#turma2 ul li a, #bg_turma a{color:#FFF}
+#fotos2{display:flex;text-align:center;justify-content:center;padding:3%;background-color:#DDD;flex-wrap:wrap}
+#fotos2 img{width:320px;height:320px;border:3px solid #0E786A;padding:2%;margin:10px}
+#bg_oscar{background-color:#0E786A;padding:3%;text-align:center}
+#oscar{background-color:rgba(14, 120, 106, 0.5);padding:5%;text-align:center;margin-bottom:2%;display:flex;flex-wrap:wrap;
+	flex-direction:column}
+#oscar a{text-decoration:none}
+#oscar h1{color:#FFF;width:100%;text-shadow:2px 2px black}
+#oscar img:nth-child(odd){border-radius:50%;width:120px;height:120px;margin-top:1%;border:2px solid black}
+#oscar img:nth-child(even){width:35px;height:65px;margin-bottom:1%}
+#oscar img:nth-child(2){margin-bottom:2%}
+#oscar ul li input{width:70%;margin:5px;font-size:1rem;border-radius:10px;border:1px solid white;height:30px;text-align:center}
+#oscar p{margin-top:15px}
+#ajuda{margin-bottom:10px}
+#oscar button{margin:15px 0;width:155px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#oscar p{color:#FFF;font-size:1.5rem}
+
+/* Edição - OK */ 
+
+#bg_edit{background-color:#F5F5DC;padding:3%;margin:0 auto}
+#edit{background-color:rgba(14, 120, 106, 0.5);padding:5%;text-align:center}
+#edit img{border:2px solid black;border-radius:50%;width:125px;height:125px}
+#edit input{width:65%;font-size:1.1rem;margin:10px 0;border-radius:10px;border:2px solid white;height:35px;text-align:center}
+#edit #arrombado{border:0;border-radius:0;width:80%}
+#edit button{margin:15px 0;width:155px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff;font-size:1.1rem}
+
+/* Explicação dos planos - OK */ 
+
+#bg_explica{background-image:url(../images/Contato3_A.jpg);padding:3%;background-repeat:no-repeat}
+#insti{margin-top:25px}
+#insti, #sala, #aluno{background-color:rgba(14, 120, 106, 0.8);padding:2%;margin:35px auto;width:60%}
+#insti h1, #sala h1, #aluno h1{text-align:center;color:#FFF;text-shadow:2px 2px black}
+#insti p b, #sala p b, #aluno p b{color:#FFF}
+#insti h1 i, #sala h1 i, #aluno h1 i{color:#FFF;text-transform:uppercase}
+#insti p, #sala p, #aluno p{text-align:justify;margin-top:30px;color:#FFF}
+
+/* Cálculo Escola - OK */
+
+#calculo_classe{background-image:url(../images/Calcular_A32.jpg);background-repeat:no-repeat;padding:5% 0}
+#calc{background-color:rgba(14, 120, 106, 0.5);width:85%;margin:0 auto;padding:3%;text-align:center}
+#calc h1{text-align:center;text-shadow:2px 2px black;font-size:2.1rem}
+#calc h1, #calc h2{color:#FFF;margin-bottom:20px}
+#calc h2{font-size:1.4rem}
+#calc form ul li{font-weight:bold}
+#calc form ul li input{margin-bottom:15px}
+#calc form ul li span{margin-left:10px}
+#calc form ul li .span22{margin-right:-17px}
+#calc button{margin-bottom:20px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+.texto{font-size:1.2rem}
+#calc input{border:1px solid white;border-radius:10px;padding:0.8% 8%;text-align:center;margin-bottom:25px}
+#calc a{color:#FFF;font-size:1.4rem}
+
+/* Cálculo Sala - OK */
+
+#calc2{background-color:rgba(14, 120, 106, 0.5);width:60%;margin:0 auto;padding:5%;text-align:center}
+#calc2 h1{text-align:center;text-shadow:2px 2px black}
+#calc2 h1{color:#FFF;margin-bottom:20px}
+#calc2 form ul li{font-weight:bold}
+#calc2 form ul li input{margin-bottom:15px}
+#calc2 form ul li:nth-child(2){margin-right:10px}
+#calc2 input{border:1px solid white;border-radius:10px;padding:0.5% 5%;text-align:center;margin-bottom:15px}
+#calc2 button{margin-bottom:20px;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+.texto{font-size:1.1rem}
+#calc2 a{color:#FFF;font-size:1.3rem}
+
+/* PayPal - OK */
+
+#bg_paypal{background-image:url(../images/Calcular_A32.jpg);background-repeat:no-repeat;padding:5% 0}
+#pp{background-color:rgba(14, 120, 106, 0.5);width:85%;margin:0 auto;text-align:center;padding:3%}
+#pp img{width:75%;height:40%}
+#pp input{width:85%;height:25px;text-align:center;border-radius:10px;padding:2%}
+#pp input, #pp p{margin-top:4%}
+#pp button a{color:grey;display:block;width:100%;margin-top:3%;text-transform:lowercase}
+#pp a{color:#FFF;text-transform:uppercase}
+#pp button{margin-top:15px;width:120px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#pp p{font-size:0.9rem;text-align:center;color:#FFF}
+ 
+/* Perguntas Editável e Público - OK */
+
+#bg_perguntas_E{background-color:#F5FFFA;padding:3%}
+#perguntas_E{background-color:rgba(14, 120, 106, 0.5);padding:2%;text-align:center}
+#perguntas_E h1{text-align:center;text-shadow:2px 2px black;font-size:2.5rem}
+#perguntas_E h1, #perguntas_E h2{color:#FFF}
+#perguntas_E h2{margin-top:2%}
+#perguntas_E input{margin:1% 0;border-radius:10px;border:1px solid white;text-align:center;height:50px;width:100%}
+#perguntas_E ul{text-align:left}
+#perguntas_E ul li #cores{width:100px;height:40px}
+#perguntas_E button{margin:3% 0;width:100px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#perguntas_E a{color:#FFF}
+#perguntas_E p{color:#000;font-size:1.2rem;margin-top:10px}
+
+/* Configurações */
+
+#bg_config{padding:3%;margin:0 auto}
+#config{background-color:rgba(14, 120, 106, 0.5);padding:3%;text-align:center}
+#config h1{margin-bottom:25px}
+#config h1, #config h2{text-shadow:2px 2px black}
+#config h2{margin-bottom:15px}
+#config ul li{margin-bottom:3px}
+#config form button{margin:15px 0;width:155px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#denuncia input{width:100%;height:100px;border-radius:10px;text-align:center}
+#denuncia button{margin:15px 0;width:155px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;border:1px solid #dcdcdc;padding:1% 2%;
+	background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100% );background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );background-color:#ededed;
+	color:#000;display:inline-block;text-shadow:1px 1px 0px #ffffff;-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;box-shadow:inset 1px 1px 0px 0px #ffffff}
+#haha input{margin-bottom:10px;text-align:center;border-radius:10px;width:70%}
+#haha .huhu{width:35%}
+#haha input, .huhu{height:35px}
+.pT{text-align:justify;color:#FFF}
+#config h1, #config h2, #config ul li, #config a{color:#FFF}
